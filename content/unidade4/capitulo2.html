@@ -21,434 +21,690 @@ Bonfim dos Santos. – 2. ed. – Curitiba, PR : Terra Sul Editora, 2022."
   </head>
   <body>
     <main class="container">
-      <p class="calibre1 titulo">
-        CAPÍTULO 2 - Números primos e números compostos
-      </p>
-
-      <h2 class="calibre4">
-        <b class="calibre5 subtitulo" id="section1"
-          >Conceito de números primos</b
-        >
-      </h2>
-      <p class="calibre1">
-        Observe a sequência dos divisores dos números a seguir.
-      </p>
-      <p class="calibre1"><b class="calibre3">6</b>: 1, 2, 3, 6</p>
-      <p class="calibre1"><b class="calibre3">11</b>: 1, 11</p>
-      <p class="calibre1"><b class="calibre3">16</b>: 1, 2, 4, 8, 16</p>
-      <p class="calibre1"><b class="calibre3">23</b>: 1, 23</p>
-      <p class="calibre1">
-        Você percebeu que os números 11 e 23 apresentam somente dois divisores,
-        o número 1 e o próprio número? Nesse caso, eles são denominados de
-        <b class="calibre3" id="botao-box">números primos</b>.
-      </p>
-
-      <div class="cardcolor regras-oculta">
-        <p class="calibre1">
-          <b class="calibre3">Número primo</b> é todo número natural que
-          apresenta apenas dois divisores: o 1 e ele mesmo.
-        </p>
-        <p class="calibre1">
-          Os números que não são primos, ou seja, aqueles maiores do que 1 e que
-          têm mais de dois divisores, são denominados
-          <b class="calibre3">números compostos</b>.
-        </p>
-      </div>
-
-      <div class="d-flex">
-        <img src="../../resources/images/i5.PNG" alt="Ícone Em dupla" />
-
-        <p class="calibre1">
-          1. Vamos descobrir quais são os números primos menores que 100? Para
-          isso, podemos utilizar o processo denominado
-          <b class="calibre3">Crivo de Eratóstenes</b>, de-senvolvido pelo
-          matemático grego Eratóstenes há mais de 2 000 anos.
-        </p>
-      </div>
-
-      <p class="calibre1">
-        Primeiro, em dupla, construam no caderno, um quadro com todos os números
-        naturais de 2 até 100, como no modelo a seguir.
-      </p>
-
-      <img
-        src="../../resources/images/matriz2.PNG"
-        alt="Quadro com 10 linhas e 10 colunas. O primeiro quadrado correspondendo a primeira linha e a primeira coluna está em branco. Na primeira linha, segunda coluna, o número 2. Na sequência, a continuação dos números em ordem crescente de 3 a 100, cada número dentro de um quadrado. "
-      />
-
-      <p class="calibre1 pg">144</p>
-      <p class="calibre1">UNIDADE 4 - CAPÍTULO 2</p>
-
-      <p class="calibre1">Em seguida, risquem os números que são:</p>
-      <p class="calibre1">► múltiplos de 2, exceto o próprio 2;</p>
-      <p class="calibre1"></p>
-      <p class="calibre1">► múltiplos de 3, exceto o próprio 3;</p>
-      <p class="calibre1"></p>
-      <p class="calibre1">► múltiplos de 5, exceto o próprio 5;</p>
-      <p class="calibre1"></p>
-      <p class="calibre1">► múltiplos de 7, exceto o próprio 7.</p>
-      <p class="calibre1">
-        ► continuamos esse processo para os números que não foram riscados, até
-        que não haja mais números a serem riscados ou contornados.
-      </p>
-      <p class="calibre1">a) Que números vocês não riscaram?</p>
-      <p class="calibre1">
-        Verifique junto com seus colegas e com o professor os números que foram
-        riscados e os números que não foram riscados.
-      </p>
-
-      <div class="cardcolor">
-        <p class="calibre1">
-          Os números que você encontrou são os números primos menores que 100.
-        </p>
-      </div>
-
-      <div class="cardcolor">
-        <p class="calibre1"><b class="calibre3">Atenção! </b></p>
-        <p class="calibre1"></p>
-        <p class="calibre1">
-          ► O número 1 não é primo nem composto, pois tem apenas um divisor, o
-          próprio 1.
-        </p>
-        <p class="calibre1">► O número 2 é o único número primo par.</p>
-      </div>
-
-      <p class="calibre1 destaque">ENCONTRE SOLUÇÕES</p>
-      <p class="calibre1">
-        1. Classifique os números naturais a se-4. Podemos escrever alguns
-        números
-      </p>
-
-      <p>1. Classifique os números naturais a seguir em primos ou compostos.</p>
-
-      <div class="grid2">
-        <div>
-          <p>a) 21</p>
-          <p>b) 23</p>
-          <p>c) 41</p>
+      <div class="pagina">
+        <div class="lateral">
+          <p>
+            Neste capítulo, apresentamos o Crivo de Eratóstenes para descobrir
+            os números até 100 que são primos. Leia a seguir um trecho do livro
+            <i>Introdução à história da Matemática</i>, de Howard Eves, que nos
+            conta um pouco da história desse matemático.
+          </p>
+          <p>
+            Natural de Cirene, na costa sul do mar Mediterrâneo, Eratóstenes era
+            apenas uns poucos anos mais novo que Arquimedes. Passou grande parte
+            de sua vida em Ate- nas e, quando tinha cerca de qua- renta anos de
+            idade, foi convidado por Ptolomeu III do Egito a mudar- -se para
+            Alexandria e ser tutor de seu filho e bibliotecário-chefe da
+            Universidade local. Há relatos de que, por volta de 194 a.C., já com
+            idade avançada, uma oftalmia o deixou quase cego. Desgostoso
+            resolveu suicidar-se, deixando vo- luntariamente de se alimentar.
+          </p>
+          <p>
+            Eratóstenes foi singularmente talen- toso em todos os ramos do
+            conhe- cimento do seu tempo. Distinguiu- -se como matemático,
+            astrônomo, geógrafo, historiador, filósofo, poeta e atleta. Consta
+            que os alunos da Universidade de Alexandria costu- mavam chamá-lo de
+            Pentatblus, o que significa campeão em cinco esportes atléticos. Era
+            também conhecido como Beta e a respeito dessa alcunha aventaram-se
+            algu- mas hipóteses. Alguns acreditam que, devido ao seu saber amplo
+            e brilhante, era alçado à condição de um segundo Platão. Uma
+            explica- ção menos abonadora propõe que, não obstante fosse ele
+            talentoso em muitos campos, nunca conseguiu ser o primeiro de seu
+            tempo em campo nenhum; em outras pala- vras, era sempre o segundo.
+            Cada uma dessas explicações se enfra- quece um pouco quando se toma
+            conhecimento de que um certo as- trônomo de nome Apolônio (muito
+            provavelmente Apolônio de Perga) era chamado de Epsilon. Devido a
+            isso o historiador James Gow sugeriu talvez Beta e Epsilon sim-
+            plesmente indicassem os números gregos (2 e 5) de certos gabinetes
+            ou salas de leitura da Universidade, associados de alguma maneira
+            par- ticular aos dois homens. Ptolomeu Hefesto, por outro lado,
+            defende que alcunha de Apolônio decorria do fato de que ele estudava
+            a Lua cujo símbolo era a letra Ɛ.
+          </p>
+          <p>
+            EVES, Howard.
+            <strong>Introdução à história da Matemática.</strong> Campinas:
+            Editora da Unicamp, 2002. p. 196-197.
+          </p>
         </div>
-        <div>
-          <p>d) 63</p>
-          <p>e) 39</p>
-          <p>f) 89</p>
+        <div class="conteudo">
+          <p class="calibre1 titulo">
+            CAPÍTULO 2 - Números primos e números compostos
+          </p>
+
+          <h2 class="calibre4">
+            <b class="calibre5 subtitulo" id="section1"
+              >Conceito de números primos</b
+            >
+          </h2>
+          <p class="calibre1">
+            Observe a sequência dos divisores dos números a seguir.
+          </p>
+          <p class="calibre1"><b class="calibre3">6</b>: 1, 2, 3, 6</p>
+          <p class="calibre1"><b class="calibre3">11</b>: 1, 11</p>
+          <p class="calibre1"><b class="calibre3">16</b>: 1, 2, 4, 8, 16</p>
+          <p class="calibre1"><b class="calibre3">23</b>: 1, 23</p>
+          <p class="calibre1">
+            Você percebeu que os números 11 e 23 apresentam somente dois
+            divisores, o número 1 e o próprio número? Nesse caso, eles são
+            denominados de
+            <b class="calibre3" id="botao-box">números primos</b>.
+          </p>
+
+          <div class="cardcolor regras-oculta">
+            <p class="calibre1">
+              <b class="calibre3">Número primo</b> é todo número natural que
+              apresenta apenas dois divisores: o 1 e ele mesmo.
+            </p>
+            <p class="calibre1">
+              Os números que não são primos, ou seja, aqueles maiores do que 1 e
+              que têm mais de dois divisores, são denominados
+              <b class="calibre3">números compostos</b>.
+            </p>
+          </div>
+
+          <div class="d-flex">
+            <img src="../../resources/images/i5.PNG" alt="Ícone Em dupla" />
+
+            <p class="calibre1">
+              1. Vamos descobrir quais são os números primos menores que 100?
+              Para isso, podemos utilizar o processo denominado
+              <b class="calibre3">Crivo de Eratóstenes</b>, de-senvolvido pelo
+              matemático grego Eratóstenes há mais de 2 000 anos.
+            </p>
+          </div>
+
+          <p class="calibre1">
+            Primeiro, em dupla, construam no caderno, um quadro com todos os
+            números naturais de 2 até 100, como no modelo a seguir.
+          </p>
+
+          <img
+            src="../../resources/images/matriz2.PNG"
+            alt="Quadro com 10 linhas e 10 colunas. O primeiro quadrado correspondendo a primeira linha e a primeira coluna está em branco. Na primeira linha, segunda coluna, o número 2. Na sequência, a continuação dos números em ordem crescente de 3 a 100, cada número dentro de um quadrado. "
+          />
+        </div>
+        <div class="baixo">
+          <p class="calibre1 pg">144</p>
         </div>
       </div>
 
-      <p>2. Quais são os números primos compreendidos entre 50 e 60?</p>
-      <p>3. Responda à questão no caderno:</p>
+      <div class="pagina">
+        <div class="lateral">
+          <p><strong>Encontre soluções</strong></p>
+          <h2 class="tl">Atividade 5</h2>
+          <img src="../../resources/images/imagem8.png" alt="" />
+          <p>
+            Números primos: 101, 103, 107, 109, 113, 127, 131, 137, 139, 149.
+          </p>
+        </div>
+        <div class="conteudo">
+          <p class="calibre1">Em seguida, risquem os números que são:</p>
+          <p class="calibre1">
+            ► múltiplos de 2, exceto o próprio 2;
+            <span class="r"
+              >4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36,
+              38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68,
+              70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98 e
+              100.</span
+            >
+          </p>
+          <p class="calibre1"></p>
+          <p class="calibre1">
+            ► múltiplos de 3, exceto o próprio 3;
+            <span class="r"
+              >9, 15, 21, 27, 33, 39, 45, 51, 57, 63, 69, 75, 81, 87, 93 e
+              99.</span
+            >
+          </p>
+          <p class="calibre1"></p>
+          <p class="calibre1">
+            ► múltiplos de 5, exceto o próprio 5;
+            <span class="r">25, 35, 55, 65, 85 e 95.</span>
+          </p>
+          <p class="calibre1"></p>
+          <p class="calibre1">
+            ► múltiplos de 7, exceto o próprio 7.
+            <span class="r">49 e 77.</span>
+          </p>
+          <p class="calibre1">
+            ► continuamos esse processo para os números que não foram riscados,
+            até que não haja mais números a serem riscados ou contornados.
+            <span class="r"
+              >2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59,
+              61, 67, 71, 73, 79, 83, 89 e 97.</span
+            >
+          </p>
+          <p class="calibre1">a) Que números vocês não riscaram?</p>
+          <p class="calibre1">
+            Verifique junto com seus colegas e com o professor os números que
+            foram riscados e os números que não foram riscados.
+          </p>
 
-      <img
-        src="../../resources/images/meninaquadro.PNG"
-        alt="Ilustração de uma menina, em uma sala de aula, em frente a um quadro verde. Ela olha para o quadro pensativa. No quadro em branco: Quantos números primos são menores que 20? Quais são eles? 
+          <div class="cardcolor">
+            <p class="calibre1">
+              Os números que você encontrou são os números primos menores que
+              100.
+            </p>
+          </div>
+
+          <div class="cardcolor">
+            <p class="calibre1"><b class="calibre3">Atenção! </b></p>
+            <p class="calibre1"></p>
+            <p class="calibre1">
+              ► O número 1 não é primo nem composto, pois tem apenas um divisor,
+              o próprio 1.
+            </p>
+            <p class="calibre1">► O número 2 é o único número primo par.</p>
+          </div>
+
+          <p class="calibre1 destaque">ENCONTRE SOLUÇÕES</p>
+          <p>
+            1. Classifique os números naturais a seguir em primos ou compostos.
+          </p>
+
+          <div class="grid2">
+            <div>
+              <p>a) 21 <span class="r">Composto</span></p>
+              <p>b) 23 <span class="r">Primo</span></p>
+              <p>c) 41 <span class="r">Primo</span></p>
+            </div>
+            <div>
+              <p>d) 63 <span class="r">Composto</span></p>
+              <p>e) 39 <span class="r">Composto</span></p>
+              <p>f) 89 <span class="r">Primo</span></p>
+            </div>
+          </div>
+
+          <p>
+            2. Quais são os números primos compreendidos entre 50 e 60?
+            <span class="r">53 e 59.</span>
+          </p>
+          <p>
+            3. Responda à questão no caderno:
+            <span class="r">8 números: 2, 3, 5, 7, 11, 13, 17 e 19.</span>
+          </p>
+
+          <img
+            src="../../resources/images/meninaquadro.PNG"
+            alt="Ilustração de uma menina, em uma sala de aula, em frente a um quadro verde. Ela olha para o quadro pensativa. No quadro em branco: Quantos números primos são menores que 20? Quais são eles? 
 "
-      />
+          />
 
-      <p>
-        4. Podemos escrever alguns números naturais considerando-os como um
-        produto de números primos. Observe:
-      </p>
+          <p>
+            4. Podemos escrever alguns números naturais considerando-os como um
+            produto de números primos. Observe:
+          </p>
 
-      <div class="d-flex">
-        <div class="card">
-          <p>6 = 2 ∙ 3</p>
+          <div class="d-flex">
+            <div class="card">
+              <p>6 = 2 ∙ 3</p>
+            </div>
+          </div>
+
+          <p>
+            ► Em seu caderno, escreva cada número a seguir, considerando-o como
+            um produto de dois ou mais números primos.
+          </p>
+          <p>a) 15 <span class="r">3 ∙ 5</span></p>
+          <p>b) 21 <span class="r">3 ∙ 7</span></p>
+          <p>c) 30 <span class="r">2 ∙ 3 ∙ 5</span></p>
+          <p>d) 42 <span class="r">2 ∙ 3 ∙ 7</span></p>
+
+          <p>
+            5. Faça o Crivo de Eratóstenes, em seu caderno, utilizando números
+            de 101 a 149. Depois, encontre os números primos compreendidos entre
+            100 e 150. Risque os números que são:
+          </p>
+
+          <p>a) múltiplos de 2;</p>
+          <p>b) múltiplos de 3;</p>
+          <p>c) múltiplos de 5;</p>
+          <p>d) múltiplos de 7;</p>
+          <p>e) múltiplos de 11.</p>
+          <span class="r"
+            >101, 103, 107, 109, 113, 127, 131, 137, 139, 149</span
+          >
+        </div>
+        <div class="baixo">
+          <p class="calibre1 pg">145</p>
         </div>
       </div>
 
-      <p>
-        ► Em seu caderno, escreva cada número a seguir, considerando-o como um
-        produto de dois ou mais números primos.
-      </p>
-      <p>a) 15</p>
-      <p>b) 21</p>
-      <p>c) 30</p>
-      <p>d) 42</p>
+      <div class="pagina">
+        <div class="lateral"></div>
+        <div class="conteudo">
+          <h2 class="calibre4">
+            <b class="calibre5 subtitulo" id="section2"
+              >Decomposição em fatores primos</b
+            >
+          </h2>
+          <p class="calibre1">
+            Vamos escrever o número 24 considerando-o como o produto de dois ou
+            mais fatores, ou seja, a multiplicação de dois ou mais números
+            naturais.
+          </p>
+          <p class="calibre1">24 = 2 ∙ 12</p>
+          <p class="calibre1">24 = 4 ∙ 6</p>
+          <p class="calibre1">24 = 3 ∙ 8</p>
+          <p class="calibre1">24 = 2 ∙ 2 ∙ 6</p>
+          <p class="calibre1">24 = 2 ∙ 2 ∙ 2 ∙ 3</p>
+          <p class="calibre1">
+            Comparando todos os produtos, podemos observar que, em um deles,
+            todos os fatores são números primos.
+          </p>
 
-      <p>
-        5. Faça o Crivo de Eratóstenes, em seu caderno, utilizando números de
-        101 a 149. Depois, encontre os números primos compreendidos entre 100 e
-        150. Risque os números que são:
-      </p>
+          <div class="cardcolor">
+            <p class="calibre1">24 = 2 ∙ 2 ∙ 2 ∙ 3</p>
+          </div>
 
-      <p>a) múltiplos de 2;</p>
-      <p>b) múltiplos de 3;</p>
-      <p>c) múltiplos de 5;</p>
-      <p>d) múltiplos de 7;</p>
-      <p>e) múltiplos de 11.</p>
+          <p class="calibre1">
+            Nesse caso, temos a decomposição do número 24 em fatores primos.
+            Neste produto, dizemos que 2 e 3 são fatores de 24.
+          </p>
 
-      <p class="calibre1">UNIDADE 4 - CAPÍTULO 2</p>
-      <p class="calibre1 pg">145</p>
+          <div class="cardcolor">
+            <p class="calibre1">
+              Todo número natural, desde que seja maior que 1 e não seja um
+              número primo, pode ser decomposto em fatores primos. Chamamos esse
+              processo de
+              <b class="calibre3">fatoração completa</b>.
+            </p>
+          </div>
 
-      <h2 class="calibre4">
-        <b class="calibre5 subtitulo" id="section2"
-          >Decomposição em fatores primos</b
-        >
-      </h2>
-      <p class="calibre1">
-        Vamos escrever o número 24 considerando-o como o produto de dois ou mais
-        fatores, ou seja, a multiplicação de dois ou mais números naturais.
-      </p>
-      <p class="calibre1">24 = 2 ∙ 12</p>
-      <p class="calibre1">24 = 4 ∙ 6</p>
-      <p class="calibre1">24 = 3 ∙ 8</p>
-      <p class="calibre1">24 = 2 ∙ 2 ∙ 6</p>
-      <p class="calibre1">24 = 2 ∙ 2 ∙ 2 ∙ 3</p>
-      <p class="calibre1">
-        Comparando todos os produtos, podemos observar que, em um deles, todos
-        os fatores são números primos.
-      </p>
+          <div class="grid2">
+            <img
+              src="../../resources/images/n30.PNG"
+              alt="Ilustração de um professor. Em um balão de diálogo, ele pergunta: Vamos obter a forma fatorada do número 30?
+    "
+            />
+            <div>
+              <p class="calibre1">Exemplos:</p>
 
-      <div class="cardcolor">
-        <p class="calibre1">24 = 2 ∙ 2 ∙ 2 ∙ 3</p>
+              <p class="calibre1">► 32 = 2 ∙ 2 ∙ 2 ∙ 2 ∙ 2 = 25</p>
+              <p class="calibre1">► 51 = 3 ∙ 17</p>
+              <p class="calibre1">► 42 = 2 ∙ 3 ∙ 7</p>
+              <p class="calibre1">► 72 = 2 ∙ 2 ∙ 2 ∙ 3 ∙ 3 = 23 ∙ 32</p>
+
+              <p class="calibre1">
+                A forma fatorada completa de um número natural pode ser obtida
+                por meio de um processo de divisões sucessivas.
+              </p>
+              <p class="calibre1">
+                Primeiro, verificamos se o número 30 é divisível pelo menor
+                número primo. Como 30 é divisível por 2, efetuamos a divisão,
+                prestando atenção na posição do 2 e na do 15.
+              </p>
+
+              <img
+                src="../../resources/images/fa1.PNG"
+                alt="trinta divididos por dois"
+              />
+
+              <p class="calibre1">
+                Na sequência, verificamos se 15 ainda é divisível por 2.
+              </p>
+              <p class="calibre1">
+                Nesse caso, como não é, verificamos se ele é divisível pelo
+                próximo número primo, que é 3, e continuamos a divisão.
+              </p>
+
+              <img
+                src="../../resources/images/fa2.PNG"
+                alt="trinta divididos por dois"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="baixo">
+          <p class="calibre1 pg">146</p>
+        </div>
       </div>
 
-      <p class="calibre1">
-        Nesse caso, temos a decomposição do número 24 em fatores primos. Neste
-        produto, dizemos que 2 e 3 são fatores de 24.
-      </p>
+      <div class="pagina">
+        <div class="lateral">
+          <p><strong>Encontre soluções</strong></p>
+          <h2 class="tl">Atividade 2</h2>
+          <p>a)</p>
+          <div class="fat">
+            <div class="esq">
+              <span>68</span>
+              <span>34</span>
+              <span>17</span>
+              <span>1</span>
+            </div>
+            <div class="dir">
+              <span>2</span>
+              <span>2</span>
+              <span>17</span>
+            </div>
+          </div>
+          <p>68 = 2² ∙ 17</p>
 
-      <div class="cardcolor">
-        <p class="calibre1">
-          Todo número natural, desde que seja maior que 1 e não seja um número
-          primo, pode ser decomposto em fatores primos. Chamamos esse processo
-          de
-          <b class="calibre3">fatoração completa</b>.
-        </p>
-      </div>
+          <p>b)</p>
+          <div class="fat">
+            <div class="esq">
+              <span>75</span>
+              <span>25</span>
+              <span>5</span>
+              <span>1</span>
+            </div>
+            <div class="dir">
+              <span>3</span>
+              <span>5</span>
+              <span>55</span>
+            </div>
+          </div>
+          <p>75 = 3 ∙ 5²</p>
 
-      <div class="grid2">
-        <img
-          src="../../resources/images/n30.PNG"
-          alt="Ilustração de um professor. Em um balão de diálogo, ele pergunta: Vamos obter a forma fatorada do número 30?
-"
-        />
-        <div>
+          <p>c)</p>
+          <div class="fat">
+            <div class="esq">
+              <span>84</span>
+              <span>42</span>
+              <span>21</span>
+              <span>7</span>
+              <span>1</span>
+            </div>
+            <div class="dir">
+              <span>2</span>
+              <span>2</span>
+              <span>3</span>
+              <span>7</span>
+            </div>
+          </div>
+          <p>84 = 2² ∙ 3 ∙ 7</p>
+
+          <p>d)</p>
+          <div class="fat">
+            <div class="esq">
+              <span>350</span>
+              <span>175</span>
+              <span>35</span>
+              <span>7</span>
+              <span>1</span>
+            </div>
+            <div class="dir">
+              <span>2</span>
+              <span>5</span>
+              <span>5</span>
+              <span>7</span>
+            </div>
+          </div>
+          <p>350 = 2 ∙ 5² ∙ 7</p>
+
+          <p>e)</p>
+          <div class="fat">
+            <div class="esq">
+              <span>51</span>
+              <span>17</span>
+              <span>1</span>
+            </div>
+            <div class="dir">
+              <span>3</span>
+              <span>17</span>
+            </div>
+          </div>
+          <p>51 = 3 ∙ 7</p>
+
+          <p>f)</p>
+          <div class="fat">
+            <div class="esq">
+              <span>90</span>
+              <span>45</span>
+              <span>15</span>
+              <span>5</span>
+              <span>1</span>
+            </div>
+            <div class="dir">
+              <span>2</span>
+              <span>3</span>
+              <span>3</span>
+              <span>5</span>
+            </div>
+          </div>
+          <p>90 = 2 ∙ 3² ∙ 5</p>
+
+          <p>g)</p>
+          <div class="fat">
+            <div class="esq">
+              <span>104</span>
+              <span>52</span>
+              <span>26</span>
+              <span>13</span>
+              <span>1</span>
+            </div>
+            <div class="dir">
+              <span>2</span>
+              <span>2</span>
+              <span>2</span>
+              <span>13</span>
+            </div>
+          </div>
+          <p>104 = 2³ ∙ 13</p>
+
+          <p>h)</p>
+          <div class="fat">
+            <div class="esq">
+              <span>175</span>
+              <span>35</span>
+              <span>7</span>
+              <span>1</span>
+            </div>
+            <div class="dir">
+              <span>5</span>
+              <span>5</span>
+              <span>7</span>
+            </div>
+          </div>
+          <p>175 = 5² ∙ 7</p>
+        </div>
+        <div class="conteudo">
+          <p class="calibre1">Temos que 5 é divisível por 5. Portanto: 30 2</p>
+
+          <div class="fat">
+            <div class="esq">
+              <span>30</span>
+              <span>15</span>
+              <span>5</span>
+              <span>1</span>
+            </div>
+            <div class="dir">
+              <span>2</span>
+              <span>3</span>
+              <span>5</span>
+            </div>
+          </div>
+
+          <p class="calibre1">
+            Quando o quociente obtido é igual a 1, finalizamos o processo.
+          </p>
+          <p class="calibre1">Forma fatorada completa: 30 = 2 ∙ 3 ∙ 5</p>
           <p class="calibre1">Exemplos:</p>
 
-          <p class="calibre1">► 32 = 2 ∙ 2 ∙ 2 ∙ 2 ∙ 2 = 25</p>
-          <p class="calibre1">► 51 = 3 ∙ 17</p>
-          <p class="calibre1">► 42 = 2 ∙ 3 ∙ 7</p>
-          <p class="calibre1">► 72 = 2 ∙ 2 ∙ 2 ∙ 3 ∙ 3 = 23 ∙ 32</p>
+          <div class="d-flex">
+            <div class="fat">
+              <div class="esq">
+                <span>49</span>
+                <span>7</span>
+                <span>1</span>
+              </div>
+              <div class="dir">
+                <span>7</span>
+                <span>7</span>
+              </div>
+            </div>
+            <p>Forma fatorada completa: 7 ∙ 7 = 7².</p>
+          </div>
 
-          <p class="calibre1">
-            A forma fatorada completa de um número natural pode ser obtida por
-            meio de um processo de divisões sucessivas.
-          </p>
-          <p class="calibre1">
-            Primeiro, verificamos se o número 30 é divisível pelo menor número
-            primo. Como 30 é divisível por 2, efetuamos a divisão, prestando
-            atenção na posição do 2 e na do 15.
+          <div class="d-flex">
+            <div class="fat">
+              <div class="esq">
+                <span>144</span>
+                <span>72</span>
+                <span>36</span>
+                <span>36</span>
+                <span>18</span>
+                <span>9</span>
+                <span>3</span>
+                <span>1</span>
+              </div>
+              <div class="dir">
+                <span>2</span>
+                <span>2</span>
+                <span>2</span>
+                <span>2</span>
+                <span>3</span>
+                <span>3</span>
+              </div>
+            </div>
+            <p class="calibre1">
+              Forma fatorada completa: 2 ∙ 2 ∙ 2 ∙ 2 ∙ 3 ∙ 3 = 24 ∙ 32.
+            </p>
+          </div>
+
+          <p class="calibre1 destaque">ENCONTRE SOLUÇÕES</p>
+
+          <p>
+            1. A seguir, temos a fatoração completa de alguns números naturais.
+            Quais são esses números?
           </p>
 
+          <div class="grid2">
+            <div>
+              <p>a) 2³ ∙ 3 ∙ 5 <span class="r">120</span></p>
+              <p>b) 2² ∙ 3 ∙ 7 <span class="r">84</span></p>
+              <p>c) 3² ∙ 5 <span class="r">45</span></p>
+            </div>
+            <div>
+              <p>d) 2 ∙ 5 ∙ 11 <span class="r">110</span></p>
+              <p>e) 3 ∙ 5² <span class="r">75</span></p>
+              <p>f) 2² ∙ 3² ∙ 7 <span class="r">252</span></p>
+            </div>
+          </div>
+
+          <p>
+            2. Decomponha os números a seguir em fatores primos e registre a
+            forma fatorada completa de cada um deles.
+          </p>
+
+          <div class="grid2">
+            <div>
+              <p>a) 68 <span class="r">2² ∙ 17</span></p>
+              <p>b) 75 <span class="r">3 ∙ 5²</span></p>
+              <p>c) 84 <span class="r">2² ∙ 3 ∙ 7</span></p>
+              <p>d) 350 <span class="r">2 ∙ 5² ∙ 7</span></p>
+            </div>
+            <div>
+              <p>e) 51 <span class="r">3 ∙ 17</span></p>
+              <p>f) 90 <span class="r">2 ∙ 3² ∙ 5</span></p>
+              <p>g) 104 <span class="r">2³ ∙ 13</span></p>
+              <p>h) 175 <span class="r">5² ∙ 7</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="baixo">
+          <p class="calibre1 pg">147</p>
+        </div>
+      </div>
+
+      <div class="pagina">
+        <div class="lateral">
+          <h2 class="tl">Atividade 4</h2>
+          <p>a) 2² ∙ 7 = 28 <br/> 140 : 28 = 5</p>
+          <p>b) 3 ∙ 5 = 15 <br/>
+            165 : 15 = 11</p>
+          <p>c) 7 ∙ 13 = 91 <br/>
+            819 : 91 = 9 = 3²</p>
+          <p>d) 5 ∙ 17 = 85 <br/>
+            340 : 85 = 4 = 2²</p>
+        </div>
+        <div class="conteudo">
+          <p>
+            3. Por meio da decomposição em fatores primos, podemos também
+            calcular a raiz quadrada de um número quadrado perfeito. Observe:
+          </p>
+
+          <p>&radic;100 = ?</p>
+
+          <div class="d-flex">
+            <div class="fat">
+              <div class="esq">
+                <span>100</span>
+                <span>50</span>
+                <span>25</span>
+                <span>5</span>
+                <span>1</span>
+              </div>
+              <div class="dir">
+                <span>2</span>
+                <span>2</span>
+                <span>5</span>
+                <span>5</span>
+              </div>
+            </div>
+
+            <p>100 = 2 ∙ 2 ∙ 5 ∙ 5</p>
+          </div>
+
+          <p>Aplicando a propriedade comutativa, temos:</p>
+          <p>100 = 2 ∙ 5 ∙ 2 ∙ 5</p>
+          <p>Em seguida, aplicamos a propriedade associativa:</p>
+          <p>Em seguida, aplicamos a propriedade associativa:</p>
+          <p>Ou seja:</p>
+          <p>100 = 10 ∙ 10 = 10²</p>
+          <p>Portanto, &radic;100 = 10.</p>
+          <p>
+            ► Agora é a sua vez! Utilizando a decomposição em fatores primos,
+            calcule o valor da raiz quadrada dos números quadrados perfeitos
+            abaixo.
+          </p>
+
+          <p>&radic;196 <span class="r">14</span></p>
+          <p>&radic;900 <span class="r">30</span></p>
+          <p>&radic;625 <span class="r">25</span></p>
+          <p>&radic;1764 <span class="r">42</span></p>
+
+          <p>
+            4. Alguns números são apresentados com sua forma fatorada completa.
+            Que fator deve ser colocado no lugar do símbolo ■, para que a
+            igualdade seja verdadeira?
+          </p>
+
+          <p>a) 2² ∙ ■ ∙ 7 = 140 <span class="r">5</span></p>
+          <p>b) 3 ∙ 5 ∙ ■ = 165 <span class="r">11</span></p>
+          <p>c) ■ ∙ 7 ∙ 13 = 819 <span class="r">3²</span></p>
+          <p>d) ■ ∙ 5 ∙ 17 = 340 <span class="r">2²</span></p>
+
+          <p>
+            5. Paula e Elaine estão competindo para ver quem resolve mais
+            rapidamente as atividades propostas pelo professor. Em uma
+            atividade, a forma fatorada de um número natural era 23 ∙ 32. Qual
+            das duas acertou? <span class="r">Elaine</span>
+          </p>
           <img
-            src="../../resources/images/fa1.PNG"
-            alt="trinta divididos por dois"
+            src="../../resources/images/paula.PNG"
+            alt="Ilustração de uma sala de aula com Paula e Elaine sentadas, em frente a mesas. Elas têm um caderno em frente. Em balões de diálogos elas conversam. Paula: “Eu encontrei o número 54”. Elaine: “Eu encontrei 72”
+    "
           />
+          <p>6. Observe os números a seguir, decompostos em fatores primos.</p>
 
-          <p class="calibre1">
-            Na sequência, verificamos se 15 ainda é divisível por 2.
-          </p>
-          <p class="calibre1">
-            Nesse caso, como não é, verificamos se ele é divisível pelo próximo
-            número primo, que é 3, e continuamos a divisão.
-          </p>
+          <p>A = 2 ∙ 2 ∙ 3 ∙ 3 ∙ 5</p>
+          <p>B = 2 ∙ 3 ∙ 5 ∙ 7</p>
 
-          <img
-            src="../../resources/images/fa2.PNG"
-            alt="trinta divididos por dois"
-          />
+          <p>a) O número A é múltiplo de 9? Por quê? <span class="r">Sim, porque 9 = 3 ∙ 3 é um dos seus fatores.</span></p>
+          <p>b) O número B é múltiplo de 21? Por quê? <span class="r">Sim, porque 21 = 3 ∙ 7 é um dos seus fatores.</span></p>
+          <p>c) Escreva o número A e B. <span class="r">A = 180 e B = 210.</span></p>
+          <p>d) O produto A ∙ B é múltiplo de 8? Por quê? <span class="r">Sim, pois o produto
+            A∙B=2∙2∙3∙3∙5∙2∙3∙5∙7 e 8=2∙2∙2 é um dos fatores.</span></p>
+          <p>e) Qual o resultado da divisão do número A por 45? <span class="r">4</span></p>
+          <p>f) Qual o resultado da divisão do número B por 6? <span class="r">35</span></p>
+        </div>
+        <div class="baixo">
+          <p class="calibre1 pg mt">148</p>
         </div>
       </div>
-
-      <p class="calibre1 pg">146</p>
-      <p class="calibre1">UNIDADE 4 - CAPÍTULO 2</p>
-
-      <p class="calibre1">Temos que 5 é divisível por 5. Portanto: 30 2</p>
-
-      <div class="fat">
-        <div class="esq">
-          <span>30</span>
-          <span>15</span>
-          <span>5</span>
-          <span>1</span>
-        </div>
-        <div class="dir">
-          <span>2</span>
-          <span>3</span>
-          <span>5</span>
-        </div>
-      </div>
-
-      <p class="calibre1">
-        Quando o quociente obtido é igual a 1, finalizamos o processo.
-      </p>
-      <p class="calibre1">Forma fatorada completa: 30 = 2 ∙ 3 ∙ 5</p>
-      <p class="calibre1">Exemplos:</p>
-
-      <div class="d-flex">
-        <div class="fat">
-          <div class="esq">
-            <span>49</span>
-            <span>7</span>
-            <span>1</span>
-          </div>
-          <div class="dir">
-            <span>7</span>
-            <span>7</span>
-          </div>
-        </div>
-        <p>Forma fatorada completa: 7 ∙ 7 = 7².</p>
-      </div>
-
-      <div class="d-flex">
-        <div class="fat">
-          <div class="esq">
-            <span>144</span>
-            <span>72</span>
-            <span>36</span>
-            <span>36</span>
-            <span>18</span>
-            <span>9</span>
-            <span>3</span>
-            <span>1</span>
-          </div>
-          <div class="dir">
-            <span>2</span>
-            <span>2</span>
-            <span>2</span>
-            <span>2</span>
-            <span>3</span>
-            <span>3</span>
-          </div>
-        </div>
-        <p class="calibre1">
-          Forma fatorada completa: 2 ∙ 2 ∙ 2 ∙ 2 ∙ 3 ∙ 3 = 24 ∙ 32.
-        </p>
-      </div>
-
-      <p class="calibre1 destaque">ENCONTRE SOLUÇÕES</p>
-
-      <p>
-        1. A seguir, temos a fatoração completa de alguns números naturais.
-        Quais são esses números?
-      </p>
-
-      <div class="grid2">
-        <div>
-          <p>a) 2³ ∙ 3 ∙ 5</p>
-          <p>b) 2² ∙ 3 ∙ 7</p>
-          <p>c) 3² ∙ 5</p>
-        </div>
-        <div>
-          <p>d) 2 ∙ 5 ∙ 11</p>
-          <p>e) 3 ∙ 5²</p>
-          <p>f) 2² ∙ 3² ∙ 7</p>
-        </div>
-      </div>
-
-      <p>
-        2. Decomponha os números a seguir em fatores primos e registre a forma
-        fatorada completa de cada um deles.
-      </p>
-
-      <div class="grid2">
-        <div>
-          <p>a) 68</p>
-          <p>b) 75</p>
-          <p>c) 84</p>
-          <p>d) 350</p>
-        </div>
-        <div>
-          <p>e) 51</p>
-          <p>f) 90</p>
-          <p>g) 104</p>
-          <p>h) 175</p>
-        </div>
-      </div>
-
-      <p class="calibre1">UNIDADE 4 - CAPÍTULO 2</p>
-      <p class="calibre1 pg">147</p>
-
-      <p>
-        3. Por meio da decomposição em fatores primos, podemos também calcular a
-        raiz quadrada de um número quadrado perfeito. Observe:
-      </p>
-
-      <p>&radic;100 = ?</p>
-
-      <div class="d-flex">
-        <div class="fat">
-          <div class="esq">
-            <span>100</span>
-            <span>50</span>
-            <span>25</span>
-            <span>5</span>
-            <span>1</span>
-          </div>
-          <div class="dir">
-            <span>2</span>
-            <span>2</span>
-            <span>5</span>
-            <span>5</span>
-          </div>
-        </div>
-
-        <p>100 = 2 ∙ 2 ∙ 5 ∙ 5</p>
-      </div>
-
-      <p>Aplicando a propriedade comutativa, temos:</p>
-      <p>100 = 2 ∙ 5 ∙ 2 ∙ 5</p>
-      <p>Em seguida, aplicamos a propriedade associativa:</p>
-      <p>Em seguida, aplicamos a propriedade associativa:</p>
-      <p>Ou seja:</p>
-      <p>100 = 10 ∙ 10 = 10²</p>
-      <p>Portanto, &radic;100 = 10.</p>
-      <p>
-        ► Agora é a sua vez! Utilizando a decomposição em fatores primos,
-        calcule o valor da raiz quadrada dos números quadrados perfeitos abaixo.
-      </p>
-
-      <p>&radic;196</p>
-      <p>&radic;900</p>
-      <p>&radic;625</p>
-      <p>&radic;1764</p>
-
-      <p>
-        4. Alguns números são apresentados com sua forma fatorada completa. Que
-        fator deve ser colocado no lugar do símbolo ■, para que a igualdade seja
-        verdadeira?
-      </p>
-
-      <p>a) 2² ∙ ■ ∙ 7 = 140</p>
-      <p>b) 3 ∙ 5 ∙ ■ = 165</p>
-      <p>c) ■ ∙ 7 ∙ 13 = 819</p>
-      <p>d) ■ ∙ 5 ∙ 17 = 340</p>
-
-      <p>
-        5. Paula e Elaine estão competindo para ver quem resolve mais
-        rapidamente as atividades propostas pelo professor. Em uma atividade, a
-        forma fatorada de um número natural era 23 ∙ 32. Qual das duas acertou?
-      </p>
-      <img
-        src="../../resources/images/paula.PNG"
-        alt="Ilustração de uma sala de aula com Paula e Elaine sentadas, em frente a mesas. Elas têm um caderno em frente. Em balões de diálogos elas conversam. Paula: “Eu encontrei o número 54”. Elaine: “Eu encontrei 72”
-"
-      />
-      <p>6. Observe os números a seguir, decompostos em fatores primos.</p>
-
-      <p>A = 2 ∙ 2 ∙ 3 ∙ 3 ∙ 5</p>
-      <p>B = 2 ∙ 3 ∙ 5 ∙ 7</p>
-
-      <p>a) O número A é múltiplo de 9? Por quê?</p>
-      <p>b) O número B é múltiplo de 21? Por quê?</p>
-      <p>c) Escreva o número A e B.</p>
-      <p>d) O produto A ∙ B é múltiplo de 8? Por quê?</p>
-      <p>e) Qual o resultado da divisão do número A por 45?</p>
-      <p>f) Qual o resultado da divisão do número B por 6?</p>
-
-      <p class="calibre1 pg mt">148</p>
-      <p class="calibre1">UNIDADE 4 - CAPÍTULO 2</p>
     </main>
     <script src="../../resources/scripts/unidade4.js"></script>
-
   </body>
 </html>

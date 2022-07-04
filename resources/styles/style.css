@@ -31,6 +31,10 @@ html {
   font-weight: bold;
   color: rgb(240, 100, 6);
 }
+.resposta {
+  color: rgb(255, 9, 247);
+  font-size: 14px;
+}
 .r {
   color: rgb(255, 9, 247);
   font-size: 14px;
