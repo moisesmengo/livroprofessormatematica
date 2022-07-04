@@ -31,9 +31,16 @@ html {
   font-weight: bold;
   color: rgb(240, 100, 6);
 }
+<<<<<<< HEAD
 .resposta {
   color: rgb(255, 9, 247);
   font-size: 14px;
+=======
+cite {
+  text-align: justify;
+  margin-bottom: 12px;
+  display: block;
+>>>>>>> refs/remotes/origin/main
 }
 .r {
   color: rgb(255, 9, 247);
@@ -120,22 +127,23 @@ h1 {
 .grid2,
 .grid3 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 20px;
 }
 
 .sessoes_do_livro .grid2 {
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .grid3 {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .d-flex {
   display: flex;
   align-items: center;
   gap: 20px;
+  flex-direction: column;
 }
 
 .sumario {
@@ -188,6 +196,7 @@ textarea {
 table {
   border-collapse: collapse;
   width: 100%;
+  margin-bottom: 12px;
 }
 
 table thead {
@@ -209,6 +218,12 @@ legend {
   min-width: 300px;
   max-width: 90%;
   overflow-x: auto;
+}
+
+.lateral legend {
+  min-width: none !important;
+  max-width: 100%;
+  font-size: 14px;
 }
 
 ul {
