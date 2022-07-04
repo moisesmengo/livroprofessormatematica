@@ -31,16 +31,10 @@ html {
   font-weight: bold;
   color: rgb(240, 100, 6);
 }
-<<<<<<< HEAD
-.resposta {
-  color: rgb(255, 9, 247);
-  font-size: 14px;
-=======
 cite {
   text-align: justify;
   margin-bottom: 12px;
   display: block;
->>>>>>> refs/remotes/origin/main
 }
 .r {
   color: rgb(255, 9, 247);
