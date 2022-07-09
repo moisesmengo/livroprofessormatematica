@@ -13,6 +13,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.sub {
+  font-size: 16px;
+  color: #0080c8;
+  margin-bottom: 14px;
+}
+
 .pagina {
   position: relative;
   display: grid;
@@ -135,9 +141,12 @@ h1 {
 
 .d-flex {
   display: flex;
-  align-items: center;
   gap: 20px;
-  flex-direction: column;
+}
+.d-flex img {
+  max-width: 80px;
+  height: auto;
+  object-fit: contain;
 }
 
 .sumario {
@@ -343,6 +352,12 @@ ul {
   margin-bottom: 10px;
 }
 
+.pfr .pg {
+  padding: 4px 20px !important;
+  display: block !important;
+  max-width: 100px;
+}
+
 @keyframes showup {
   from {
     opacity: 0;
@@ -353,6 +368,11 @@ ul {
     opacity: 1;
     transform: translate3d(0, 0, 0);
   }
+}
+
+.img2 {
+  max-width: 100% !important;
+  width: 100%;
 }
 
 @media (max-width: 800px) {
